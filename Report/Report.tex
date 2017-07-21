@@ -188,15 +188,14 @@ graphs are the average values of the execution time for each shader stage: Prima
 
 \begin{table}[h!btp]
 \centering
-\def\arraystretch{1.5}
-\begin{tabular}{c|c|c|c}
-Resolution  & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
+\begin{tabular}{c|c|c|c|c}
+    Resolution  & Primary Ray & Intersection & Color & Total \\ [2pt]
 \hline
-800x600 & 0.689549 & 3.31683 & 12.4687 \\
+    800x600 & 0.689549 & 3.31683 & 12.4687 & 16.475079 \\
 \hline
-1280x1024 & 1.84867 & 8.29189 & 33.3089 \\
+    1280x1024 & 1.84867 & 8.29189 & 33.3089 & 43.44946 \\
 \hline
-1920x1080 & 2.87235 & 12.7814 & 52.7882 \\
+    1920x1080 & 2.87235 & 12.7814 & 52.7882 & 68.44195 \\
 \hline
 % Mean Value, Standard Deviation
 \end{tabular}
@@ -215,15 +214,14 @@ Resolution  & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
 
 \begin{table}[h!btp]
 \centering
-\def\arraystretch{1.5}
-\begin{tabular}{c|c|c|c}
-Trace Depth & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
+\begin{tabular}{c|c|c|c|c}
+    Trace Depth & Primary Ray & Intersection & Color & Total \\ [2pt]
 \hline
-2 & 1.85042 & 5.53545 & 22.2733 \\
+    2 & 1.85042 & 5.53545 & 22.2733 & 29.65917 \\
 \hline
-3 & 1.84899 & 8.30323 & 33.3126 \\
+    3 & 1.84899 & 8.30323 & 33.3126 & 43.46482 \\
 \hline
-4 & 1.85413 & 11.0674 & 44.3539 \\
+    4 & 1.85413 & 11.0674 & 44.3539 & 57.27543 \\
 \hline
 % Mean Value, Standard Deviation
 \end{tabular}
@@ -241,15 +239,14 @@ Trace Depth & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
 
 \begin{table}[h!btp]
 \centering
-\def\arraystretch{1.5}
-\begin{tabular}{c|c|c|c}
-Light Count & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
+\begin{tabular}{c|c|c|c|c}
+    Light Count & Primary Ray & Intersection & Color & Total \\ [2pt]
 \hline
-2 & 1.84708 & 8.28784 & 19.4441 \\
+    2 & 1.84708 & 8.28784 & 19.4441 & 29.57902 \\
 \hline
-4 & 1.85202 & 8.30228 & 33.3158 \\
+    4 & 1.85202 & 8.30228 & 33.3158 & 43.4701 \\
 \hline
-6 & 1.86065 & 8.30864 & 47.3375 \\
+    6 & 1.86065 & 8.30864 & 47.3375 & 57.50679 \\
 \hline
 % Mean Value, Standard Deviation
 \end{tabular}
@@ -267,15 +264,14 @@ Light Count & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
 
 \begin{table}[h!btp]
 \centering
-\def\arraystretch{1.5}
-\begin{tabular}{c|c|c|c}
-    Block Size & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
+\begin{tabular}{c|c|c|c|c}
+    Block Size & Primary Ray & Intersection & Color & Total \\ [2pt]
 \hline
-    8x8 & 1.83612 & 8.37162 & 32.4559 \\
+    8x8 & 1.83612 & 8.37162 & 32.4559 & 42.66364 \\
 \hline
-    16x16 & 1.86027 & 8.38811 & 33.5634 \\
+    16x16 & 1.86027 & 8.38811 & 33.5634 & 43.81178 \\
 \hline
-    32x32 & 1.82558 & 8.73071 & 34.4105 \\
+    32x32 & 1.82558 & 8.73071 & 34.4105 & 44.96679 \\
 \hline
 % Mean Value, Standard Deviation
 \end{tabular}
@@ -293,15 +289,14 @@ Light Count & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
 
 \begin{table}[h!btp]
 \centering
-\def\arraystretch{1.5}
-\begin{tabular}{c|c|c|c}
-Number of Triangles & Primary Ray Stage & Intersection Stage & Color Stage \\ [2pt]
+\begin{tabular}{c|c|c|c|c}
+    Triangle Count & Primary Ray & Intersection & Color & Total \\ [2pt]
 \hline
-24  & 1.88325 & 8.87787  & 33.7375 \\
+    24  & 1.88325 & 8.87787  & 33.7375 & 44.49862 \\
 \hline
-60  & 1.87335 & 18.1137 & 71.9502 \\
+    60  & 1.87335 & 18.1137 & 71.9502 & 91.93725 \\
 \hline
-204 & 1.86306 & 57.1424 & 226.121 \\
+    204 & 1.86306 & 57.1424 & 226.121 & 285.12646 \\
 \hline
 % Mean Value, Standard Deviation
 \end{tabular}
